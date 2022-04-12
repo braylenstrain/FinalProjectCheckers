@@ -11,7 +11,7 @@ The differences from normal checkers are:
 This is a project to display my understanding of the topics that I have learned from this course.
 
 ## How to Run
-Two clients are paired through the server. When it is a player's turn, they click on a piece to see it's possible moves highlighted. They then click one of the highlighted squares to make that move. Then it is the other player's turn.
+Two clients are paired through the server. When it is a player's turn, they click on a piece to see it's possible moves highlighted. They then click one of the highlighted squares to make that move.
 
 ## Code Example
 This code snippet shows how the program highlights possible moves for a piece. The cells that meet the criteria are put into an ArrayList called *possibleMoves*. Depending on the player, it looks at either the row above or below the piece. If a cell is out of bounds, an *IndexOutOfBoundsException* is caught. If the player chooses a difference piece or makes a move, *unhighlight()* will clear the ArrayList.
