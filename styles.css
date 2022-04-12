@@ -1,0 +1,24 @@
+.blackcell {
+	-fx-background-color: black;
+}
+
+.redcell {
+	-fx-background-color: #660000;
+	-fx-border-color: black
+}
+
+.highlightedcell {
+	-fx-background-color: #FAFAD2;
+}
+
+.potentialmover {
+	-fx-border-color: #FAFAD2;
+}
+
+.blackpiece {
+	-fx-fill: #111111;
+}
+
+.whitepiece {
+	-fx-fill: #DDDDDD;
+}
